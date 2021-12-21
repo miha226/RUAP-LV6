@@ -41,7 +41,7 @@ namespace CallRequestResponseService
                             new StringTable()
                             {
                                 ColumnNames = new string[] {"MPG", "Cyl", "Displacement", "Horsepower", "Weight", "Acceleration", "Year", "CountryCode", "Model"},
-                                Values = new string[,] {  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
+                                Values = new string[,] {  { "18", "6", "199", "95", "2581", "17", "71", "1", "amc gremlin" },  { "28", "4", "116", "90", "2123", "14", "71", "2", "opel 1900" },  }
                             }
                         },
                     },
@@ -80,6 +80,7 @@ namespace CallRequestResponseService
                     Console.WriteLine(responseContent);
                 }
             }
+            Console.ReadLine();
         }
         
     }
